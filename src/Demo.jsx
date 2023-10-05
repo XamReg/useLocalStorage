@@ -1,7 +1,6 @@
 import { useLocalStorage } from './useLocalStorage';
 
 export function Demo() {
-//   const [token, { setItem, removeItem }] = useLocalStorage('token');
   const [token, { setItem,removeItem}] = useLocalStorage('token');
 
   return (

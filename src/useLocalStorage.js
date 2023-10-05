@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export function useLocalStorage (val) {
     const[token,setToken] = useState(localStorage.getItem(val));
